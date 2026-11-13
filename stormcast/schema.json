@@ -1,0 +1,38 @@
+{
+  "daily": {
+    "keys": [
+      "record_id"
+    ],
+    "columns": [
+      "record_id",
+      "station_id",
+      "day",
+      "rain_mm",
+      "observed_hours",
+      "era_id",
+      "process_id"
+    ]
+  },
+  "eras": {
+    "keys": [
+      "era_id"
+    ],
+    "columns": [
+      "era_id",
+      "station_id",
+      "town_id",
+      "start",
+      "end",
+      "instrument"
+    ]
+  },
+  "thresholds": {
+    "keys": [
+      "town_id"
+    ],
+    "columns": [
+      "town_id",
+      "threshold_mm"
+    ]
+  }
+}
